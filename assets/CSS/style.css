@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:ital,wght@0,400;1,400;1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:ital,wght@0,400;1,400;1,500&display=swap');
+  @import url("./style-animations.css");
+
+
+
+
+body{
+    font-family:"lato";
+     width: 1160px;}
+body{
+    box-sizing: border-box;
+    border-right:25px,solid, #dbc2a4;
+    width: 100%;}
+header{background-color: #782221;
+    height:550px;
+    padding :25px;
+    position: top center;
+    font-family:"raleway";
+    padding:25px,250px;
+    display:grid;
+    grid-template-columns:repeat,3fr;
+    grid-template-rows:2fr 1fr 1fr 1fr ;}
+figure{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;}
+.headshot {
+    border: 2px solid #dbc2a4;
+    border-radius: 100%;
+    box-shadow: 25px,25px,25px,#2c1d27;}
+.headshot{ 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;}
+address{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-content: space-between;}
+h1{ color:white ;
+   grid-row: 2;grid-column: 2;
+   display:flex;
+   justify-content: center}
+
+h2{
+   color:white ;
+   grid-row: 3;grid-column: 2;
+   display:flex;
+   justify-content: center}
+main{
+   width: 910px ;
+   padding:20px ;
+   display:block;
+   float:right;}
+
+aside{
+    padding-right: 25px;
+    display:flex;
+    position:absolute;
+    left:0;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:space-evenly;}
+
+aside{
+    background-color: #782221;
+    margin-left: 9px;
+    width: 250px;
+    height: 2229px;}
+
+h4 div{
+  margin: 15px;
+  text-align:justify}
+
+footer{background-color: #782221}
+
+h3{background-color:#dbc2a4}
+
+h4{background-color:#dbc2a4}
+
+footer{
+    height: 100px;
+    width:100% ;
+    padding :25px;
+    position: bottom center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content:center;}
+
+.links{
+  position:absolute;
+  width: 5%;
+  margin-left: -3%;
+  height: 15%;}
